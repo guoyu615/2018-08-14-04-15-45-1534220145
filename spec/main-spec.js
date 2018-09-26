@@ -1,6 +1,6 @@
 const main = require('../main/main');
 
-describe('main()', () => {
+describe('main(a,b)', () => {
 
     it('should calculate the remaindar', () => {
         expect(main(9, 3)).toBe(0);
